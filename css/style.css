@@ -47,7 +47,7 @@ body {
 
 .banner h1 {
   margin: 0;
-  color: #fff;
+  color: white;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   font-size: 62px;
   font-weight: bold;
@@ -60,16 +60,15 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-/* product-crds */
+/*product cards*/
 .shop-content {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 30px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -105,8 +104,8 @@ body {
   opacity: 0.7;
 }
 
-/* modal content */
-.modal-conteiner {
+/*modal content*/
+.modal-container {
   width: 80%;
   margin: 0 10%;
   max-height: 88vh;
@@ -115,7 +114,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* foe the top */
+  /*for the top*/
   position: fixed;
   overflow: auto;
   z-index: 9;
@@ -126,7 +125,6 @@ body {
 .modal-container::-webkit-scrollbar {
   display: none;
 }
-
 .modal-header {
   display: flex;
   justify-content: space-around;
@@ -135,7 +133,7 @@ body {
   width: 100%;
 }
 
-.modal-haeder-title {
+.modal-header-title {
   justify-self: start;
 }
 
@@ -163,7 +161,9 @@ body {
   text-align: center;
   padding-top: 20px;
 }
+
 /*se agregaron unas lineas de css con media querys para que se adapte mejor al responsive :)*/
+
 @media only screen and (max-width: 750px) {
   .modal-container {
     width: 100%;
@@ -182,13 +182,14 @@ body {
     width: 80px;
   }
 }
-/* delete button product */
+
+/*delete button product*/
 .delete-product {
   cursor: pointer;
 }
 
-/* carritoCounter */
-.cantidad-carrito  {
+/*CarritoCounter*/
+.cantidad-carrito {
   background-color: red;
   color: white;
   border-radius: 50%;
@@ -197,12 +198,13 @@ body {
   top: 37px;
   right: 14px;
   position: absolute;
-  display: none;  
+  display: none;
 }
 
 .sumar {
   cursor: pointer;
 }
+
 .restar {
   cursor: pointer;
 }
