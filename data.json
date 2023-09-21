@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "nombre": "Promo 1",
+        "precio": 1500,
+        "img":
+        "https://scontent.faep4-3.fna.fbcdn.net/v/t1.6435-9/148192010_469106821128282_7549971099193498975_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a26aad&_nc_ohc=0PamQh9SBc0AX-YP3s4&_nc_ht=scontent.faep4-3.fna&oh=00_AfBZFKb1Hb0GnzqSBLCRut4Cilv77rQXvE3dufDKX1sreA&oe=65329D34",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Promo 2",
+        "precio": 1200,
+        "img": 
+        "https://scontent.faep4-2.fna.fbcdn.net/v/t1.6435-9/149506210_469106824461615_4149608543637982761_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=Blgd72zpMssAX9dSES5&_nc_ht=scontent.faep4-2.fna&oh=00_AfCXq-HSH93o1P0nK_N7tqG7kAL3YbE2UWazNetMoiJk5w&oe=65328442",
+        "cantidad": 1
+    },
+    {
+        "id" : 3,
+        "nombre": "Promo 3",
+        "precio": 900,
+        "img":
+        "https://scontent.faep4-3.fna.fbcdn.net/v/t1.6435-9/149700155_469105381128426_2899946657606650633_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a26aad&_nc_ohc=OWzZ6etiymoAX_s01Ip&_nc_ht=scontent.faep4-3.fna&oh=00_AfDfAjX_VOZMZnqh2nb85hwTENhXjaXXlj7rwDWpnkRvAw&oe=653289BB",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Promo 4",
+        "precio": 600,
+        "img":
+        "https://scontent.faep4-2.fna.fbcdn.net/v/t1.6435-9/147978313_469105407795090_7496464915382964587_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=yEMHN3UDEmwAX-z2SPc&_nc_ht=scontent.faep4-2.fna&oh=00_AfD_rgQSg_d6bxMEfe52p3yMJ-d3K634fD6xC4wkur5RRg&oe=653286C5",
+        "cantidad": 1
+    }
+  ]

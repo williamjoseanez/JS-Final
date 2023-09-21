@@ -1,0 +1,208 @@
+body {
+  margin: 0px;
+  background-color: rgba(219, 209, 209, 0.89);
+}
+
+/* navbar */
+.nav-container {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+  background-color: #1b1b1b;
+}
+
+.navbar-logo {
+  justify-self: start;
+  margin-left: 20px;
+  color: #fff;
+  margin-top: 4vh;
+  cursor: pointer;
+}
+
+.ver-carrito {
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: 3.5vh;
+  cursor: pointer;
+}
+
+/* Banner estilos */
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://scontent.fepa4-1.fna.fbcdn.net/v/t39.30808-6/302004326_531313052327753_3196753369039544404_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=3LYrRstw2DIAX9wNlcZ&_nc_ht=scontent.fepa4-1.fna&oh=00_AfDW1njPfxaKgcuprYJ4L1rVFbKDrD8psa3j51MxW95aWA&oe=651017FF");
+}
+
+.banner-container {
+  text-align: center;
+  padding: 15% 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* product-crds */
+.shop-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin: 10px;
+}
+
+.card > img {
+  width: 90%;
+  height: 250px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/* modal content */
+.modal-conteiner {
+  width: 80%;
+  margin: 0 10%;
+  max-height: 88vh;
+  color: #fff;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* foe the top */
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  scrollbar-color: none;
+}
+
+.modal-container::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0a0909;
+  color: #fff;
+  width: 100%;
+}
+
+.modal-haeder-title {
+  justify-self: start;
+}
+
+.modal-header-button {
+  cursor: pointer;
+}
+
+.modal-container > .modal-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: 10px;
+}
+
+.modal-container > div > img {
+  height: 120px;
+  width: 120px;
+}
+
+.total-content {
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+/*se agregaron unas lineas de css con media querys para que se adapte mejor al responsive :)*/
+@media only screen and (max-width: 750px) {
+  .modal-container {
+    width: 100%;
+    margin: 0;
+    min-height: 88vh;
+  }
+
+  .modal-container > .modal-content {
+    justify-content: space-between;
+    width: 100%;
+    margin: 2px;
+  }
+
+  .modal-container > div > img {
+    height: 80px;
+    width: 80px;
+  }
+}
+/* delete button product */
+.delete-product {
+  cursor: pointer;
+}
+
+/* carritoCounter */
+.cantidad-carrito  {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 4px;
+  top: 37px;
+  right: 14px;
+  position: absolute;
+  display: none;  
+}
+
+.sumar {
+  cursor: pointer;
+}
+.restar {
+  cursor: pointer;
+}
