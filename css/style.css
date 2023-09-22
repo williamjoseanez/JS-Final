@@ -128,8 +128,8 @@ body {
 .modal-header {
   display: flex;
   justify-content: space-around;
-  background-color: #0a0909;
-  color: #fff;
+  background-color: #ce3636;
+  color: #161616;
   width: 100%;
 }
 
